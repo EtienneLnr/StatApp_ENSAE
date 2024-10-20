@@ -1,4 +1,4 @@
-# StatApp_ENSAE: few-Shot Learning for Time Series Classification in the Energy Domain
+# StatApp ENSAE: Few-Shot Learning for Time Series Classification in the Energy Domain
 
 ## Project Description
 
