@@ -21,14 +21,14 @@ dataset_name = 'Elec'
 
 
 if dataset_name == 'Elec':
-    elec = pd.read_csv('datasets/Elec/ECL.csv')
+    elec = pd.read_csv('./datasets/Elec/ECL.csv')
     X_train, y_train, X_test, y_test = make_dataset(elec)
 
 elif dataset_name == 'FordA':
-    X_train = np.load("datasets/FordA/X_train.npy").squeeze()
-    y_train = np.load("datasets/FordA/y_train.npy").squeeze()
-    X_test = np.load("datasets/FordA/X_test.npy").squeeze()
-    y_test = np.load("datasets/FordA/y_test.npy").squeeze()
+    X_train = np.load("./datasets/FordA/X_train.npy").squeeze()
+    y_train = np.load("./datasets/FordA/y_train.npy").squeeze()
+    X_test = np.load("./datasets/FordA/X_test.npy").squeeze()
+    y_test = np.load("./datasets/FordA/y_test.npy").squeeze()
 
 else:
     raise NotImplementedError

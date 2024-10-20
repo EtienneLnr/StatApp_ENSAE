@@ -3,8 +3,9 @@ from pathlib import Path
 
 sys.path.append(str(Path(__file__).parents[1]))
 sys.path.append(str(Path(__file__).parents[2]))
+sys.path.append(str(Path(__file__).parents[3]))
 
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt 
 
 
 def plot_accuracies_per_percentages(percentages, accuracies, name):
@@ -16,5 +17,5 @@ def plot_accuracies_per_percentages(percentages, accuracies, name):
     plt.ylabel("Accuracy")
     plt.grid(True)
     plt.legend(loc='upper center', bbox_to_anchor=(0.5, -0.1), 
-               ancybox=True, shadow=True, ncol=1)
-    plt.savefig(f"outputs/figures/{name}_accuracies_per_percentages")
+               fancybox=True, shadow=True, ncol=1)
+    plt.savefig(f"outputs/figures/{name}_accuracies_per_percentages.png", bbox_inches='tight')
