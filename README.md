@@ -4,7 +4,7 @@
 
 ### Supervisors:
 - Etienne Le Naour, Tahar Nabil  
-- Email: etienne.le-naour@edf.fr, tahar.nabil@edf.fr  
+- Email: etienne.le-naour[at]edf.fr, tahar.nabil[at]edf.fr  
 
 ### Problem Statement
 
